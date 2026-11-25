@@ -94,13 +94,12 @@ pip install -r requirements.txt
 
 The `config/config.example.ini` file contains the sample configuration settings, including input file paths, output paths, database table names, and logging level.
 
-The Python script reads these settings during execution.
-
+The Python script directly reads this configuration file during execution. Update the paths and settings in this file if required.
 ### 5. Run the Pipeline
 
-```bash
+
 python src/consolidate_vendor_master.py
-```
+
 
 ## Output Files
 
