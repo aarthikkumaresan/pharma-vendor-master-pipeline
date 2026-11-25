@@ -86,9 +86,9 @@ cd pharma-vendor-master-pipeline
 
 ### 3. Install Dependencies
 
-```bash
+python -m venv venv
 pip install -r requirements.txt
-```
+venv\Scripts\activate
 
 ### 4. Configure the Project
 
